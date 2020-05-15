@@ -1,0 +1,74 @@
+import React, { Component } from 'react'
+import './app.css'
+import Image from './man-biking.png'
+import Image2 from './sephiroth.jpg'
+import Image3 from './image2.jpg'
+import Image4 from './test1.jpg'
+import Image5 from './test2.jpg'
+import Image6 from './test3.jpg'
+
+
+class Body2 extends Component {
+render () {
+  return (
+      <div>
+          <section className="sectiondark">
+            <div class="container-fluid">
+          <div className="row">
+                <div className="col-8">
+              <img className="leftLarge" src={Image2} alt="website logo"/>
+                <h1 className="smallimgtext">Look at the glory of Sephiroth! The Fire, the Graphics! This is out of this world! Check him out here!</h1>
+                <div className="smallerText"><span>LEAVE A COMMENT</span> | WILL</div>
+                <div className="buttonclass">
+                <a href="https://google.com" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Continue Reading!</a>
+                </div>
+              </div>
+            <div className="col-4">
+                <img className="rightLarge" src={Image3} alt="website logo"/>
+                <h1 className="smallimgtext">Amazing graphics of the FF7 Remake! Beautiful!</h1>
+                <div className="smallerText"><span>LEAVE A COMMENT</span> | WILL</div>
+                <div className="buttonclass">
+                <a href="https://ign.com" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Continue Reading!
+                </a>
+            </div>
+            </div>
+            <div className="row">
+            <div className="col-4">
+                <img className="smallimg" src={Image4} alt="website logo"/>
+                <h1 className="smallimgtext">Amazing Character. See more about this character here!</h1>
+                <div className="smallerText"><span>LEAVE A COMMENT</span> | WILL</div>
+                <div className="buttonclass">
+                <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Summon_Materia_Guide:_How_to_Unlock_Every_Summon" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Continue Reading!
+                </a>
+            </div>
+            </div>
+            <div className="col-4">
+                <img className="smallimg" src={Image5} alt="website logo"/>
+                <h1 className="smallimgtext">Cloud looks awesome! Check out more Cloud content here!</h1>
+                <div className="smallerText"><span>LEAVE A COMMENT</span> | WILL</div>
+                <div className="buttonclass">
+                <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Corneo_Colosseum_Battle_Challenges_Guide" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Continue Reading!
+                </a>
+            </div>
+            </div>
+            <div className="col-4">
+                <img className="smallimg" src={Image6} alt="website logo"/>
+                 <h1 className="smallimgtext">Aeris looks absolutely goregous! See more pictures here!</h1>
+                <div className="smallerText"><span>LEAVE A COMMENT</span> | WILL</div>
+                <div className="buttonclass">
+                <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Tips_-_18_Things_FF7_Doesn%27t_Tell_You" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Continue Reading!
+                </a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+          </section>
+              </div>
+
+  );
+}
+}
+
+
+export default Body2;
